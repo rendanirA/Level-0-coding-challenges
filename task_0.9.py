@@ -1,7 +1,14 @@
-def prints_vowels_in_a_string(string1):
-    string2 = set(string1)
-    vowels = (each for each in string2 if each in "aeiouAEIOU")
-    print("Vowels: ", ", ".join(vowels).lower())
+def find_vowels(string1):
+    res = ""
+    for char in string1:
+        if char in "aeiouAEIOU":
+            res = res + char
+    else:
+        x = ",".join(sorted(set(res), key=res.index))
+    return x
 
 
-prints_vowels_in_a_string("Umuzi")
+string1 = "Umuzi"
+vowels = find_vowels(string1.lower())
+print(vowels, sep=",")
+
