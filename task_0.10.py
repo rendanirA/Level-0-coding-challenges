@@ -11,5 +11,4 @@ def find_common_characters(string1, string2):
 string1 = "House"
 string2 = "Computers"
 common_characters = find_common_characters(string1.lower(), string2.lower())
-print(common_characters, sep=",")
-
+print("common letters: " + common_characters, sep=",")

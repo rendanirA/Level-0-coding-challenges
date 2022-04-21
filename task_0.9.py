@@ -10,5 +10,4 @@ def find_vowels(string1):
 
 string1 = "Umuzi"
 vowels = find_vowels(string1.lower())
-print(vowels, sep=",")
-
+print("vowels : " + vowels, sep=",")
