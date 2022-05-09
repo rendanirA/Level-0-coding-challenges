@@ -1,11 +1,11 @@
 def find_vowels(string1):
-    res = ""
+    results = ""
     for char in string1:
         if char in "aeiouAEIOU":
-            res = res + char
+            results = results + char
     else:
-        x = ",".join(sorted(set(res), key=res.index))
-    return x
+        result = ",".join(sorted(set(results), key=results.index))
+    return result
 
 
 string1 = "Umuzi"

@@ -1,11 +1,11 @@
 def find_common_characters(string1, string2):
-    res = ""
+    results = ""
     for char in string1:
         if char in string2:
-            res = res + char
+            results = results + char
     else:
-        x = ",".join(sorted(set(res), key=res.index))
-    return x
+        result = ",".join(sorted(set(results), key=results.index))
+    return result
 
 
 string1 = "House"
