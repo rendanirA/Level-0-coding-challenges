@@ -8,6 +8,6 @@ def find_vowels(string1):
     return result
 
 
-string1 = "Umuzi"
+string1 = "rendani"
 vowels = find_vowels(string1.lower())
 print("vowels : " + vowels, sep=",")
